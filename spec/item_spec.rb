@@ -6,7 +6,7 @@ RSpec.describe Item do
     @item2 = Item.new('Bamboo Picture Frame')
   end
   
-  describe 'Instanciates' do 
+  describe 'Instantiate' do 
     it 'It exisit' do 
       expect(@item1).to be_a(Item)
       expect(@item2).to be_a(Item)
