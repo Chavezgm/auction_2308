@@ -14,4 +14,8 @@ class Auction
     end
     item_names
   end
+
+  def add_bid(attendee,quantity)
+    @items[attendee] += quantity
+  end
 end
